@@ -367,12 +367,5 @@ public:
 
 int main()
 {
-	string front, middle;
-	int size;
-	cin >> size >> front >> middle;
-	Tree BinTree(front, middle);
-	BinTree.frontPrint();
-	BinTree.middlePrint();
-	BinTree.backPrint();
 	return 0;
 }
